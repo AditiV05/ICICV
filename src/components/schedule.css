@@ -1,0 +1,93 @@
+/* Schedule Section */
+.schedule-section {
+  padding: 100px 20px;
+  background-color: #f7fafc; /* Light background for consistency */
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+/* Container Alignment */
+.schedule-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Main Heading */
+.schedule-section h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #1a73e8; /* Professional blue for emphasis */
+}
+
+/* Subheadings */
+.schedule-details h3,
+.accommodation-details h3 {
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #444;
+  border-left: 4px solid #1a73e8; /* Accent similar to instructionsauthors */
+  padding-left: 10px;
+}
+
+/* Paragraph Styles */
+.schedule-details p,
+.accommodation-details p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* List Styles */
+.schedule-details ul,
+.accommodation-details ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px; /* Adds some indentation */
+}
+
+.schedule-details li,
+.accommodation-details li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Download Links */
+.downloads p {
+  margin: 15px 0;
+}
+
+.downloads a {
+  color: #fcb900; /* Yellow for highlight */
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+.downloads a:hover {
+  color: #e89c15; /* Slightly darker yellow on hover */
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .schedule-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .schedule-details h3,
+  .accommodation-details h3 {
+    font-size: 1.6rem;
+  }
+
+  .schedule-details li,
+  .accommodation-details li {
+    font-size: 0.9rem;
+  }
+}

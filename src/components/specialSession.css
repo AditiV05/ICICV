@@ -1,0 +1,120 @@
+/* Special Session Section */
+.special-session-section {
+  padding: 100px 20px;
+  background-color: #f7fafc; /* Light background for consistency */
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+/* Container and Text Alignment */
+.special-session-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Main Heading */
+.special-session-section h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #1a73e8; /* Professional blue for consistency */
+}
+
+/* Subheadings */
+.special-session-section h3 {
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #444;
+  border-left: 4px solid #1a73e8; /* Accent matching other components */
+  padding-left: 10px;
+}
+
+/* Paragraph Styles */
+.special-session-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Card Styles for Special Sessions */
+.special-sessions-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.session-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.session-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.session-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #1a73e8;
+}
+
+.session-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Link Styles */
+.session-link {
+  display: inline-block;
+  color: #fcb900;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+.session-link:hover {
+  color: #e89c15;
+  text-decoration: none;
+}
+
+/* List Styles */
+.special-session-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.special-session-section ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .special-session-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .special-session-section h3 {
+    font-size: 1.6rem;
+  }
+
+  .session-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .session-card p {
+    font-size: 0.9rem;
+  }
+}

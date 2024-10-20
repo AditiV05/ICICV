@@ -1,0 +1,83 @@
+/* Base Section Styles */
+.instructions-for-authors {
+  padding: 100px 20px;
+  background-color: #f4f6f8; /* Light gray for a clean background */
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+/* Container and Text Alignment */
+.instructions-for-authors .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Main Heading */
+.instructions-for-authors h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #1a73e8; /* Professional blue for contrast */
+}
+
+/* Subheadings */
+.instructions-for-authors h3 {
+  font-size: 1.8rem;
+  color: #555;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  border-left: 4px solid #1a73e8;
+  padding-left: 10px;
+}
+
+/* Paragraph Styles */
+.instructions-for-authors p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+/* Bullet Points and Lists */
+.instructions-for-authors ul {
+  list-style-type: disc;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.instructions-for-authors ul li {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Links */
+.instructions-for-authors a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.instructions-for-authors a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .instructions-for-authors h2 {
+    font-size: 2.5rem;
+  }
+
+  .instructions-for-authors h3 {
+    font-size: 1.6rem;
+  }
+
+  .instructions-for-authors p,
+  .instructions-for-authors ul li {
+    font-size: 1rem;
+  }
+}

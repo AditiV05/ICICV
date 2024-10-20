@@ -1,0 +1,78 @@
+/* ConferenceDetails Section */
+#conference-details {
+  padding: 80px 0;
+  background-color: #fff9e6;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#conference-details h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+#conference-details .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#conference-details .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  #conference-details .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  #conference-details .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+#conference-details .card {
+  background-color: #ffffff;
+  padding: 30px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#conference-details .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+#conference-details .card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #444444;
+}
+
+#conference-details .card p {
+  font-size: 1rem;
+  color: #555555;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  #conference-details h2 {
+    font-size: 2.4rem;
+  }
+
+  #conference-details .card h3 {
+    font-size: 1.4rem;
+  }
+
+  #conference-details .card p {
+    font-size: 0.95rem;
+  }
+}

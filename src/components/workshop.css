@@ -1,0 +1,86 @@
+/* Workshop Section */
+.workshop-section {
+  padding: 100px 20px;
+  background-color: #f7fafc; /* Light background for consistency */
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+/* Container and Text Alignment */
+.workshop-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Main Heading */
+.workshop-section h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #1a73e8; /* Professional blue for consistency */
+}
+
+/* Subheadings */
+.workshop-section h3,
+.workshop-info h4 {
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #444;
+  border-left: 4px solid #1a73e8; /* Accent matching other components */
+  padding-left: 10px;
+}
+
+/* Paragraph Styles */
+.workshop-info p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* List Styles */
+.workshop-info ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px; /* Adds some indentation */
+}
+
+.workshop-info ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Link Styles */
+.workshop-info a {
+  color: #fcb900; /* Highlight color for links */
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+.workshop-info a:hover {
+  color: #e89c15; /* Slightly darker yellow on hover */
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .workshop-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .workshop-section h3,
+  .workshop-info h4 {
+    font-size: 1.6rem;
+  }
+
+  .workshop-info p,
+  .workshop-info ul li {
+    font-size: 0.9rem;
+  }
+}
